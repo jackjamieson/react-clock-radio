@@ -1,6 +1,8 @@
 # react-clock-radio
 Demo project for learning React that looks like an old clock radio I have.
 
+Demo at https://jackjamieson.github.io/react-clock-radio/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
