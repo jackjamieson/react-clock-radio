@@ -6,11 +6,45 @@
   margin-top:50px;
 }
 
+.lower-button {
+  background: #6a4d37;
+  border: 2px solid #38291d;
+  font-family: monospace;
+  padding: .5em;
+  color: white;
+  box-shadow: 0 2px #292929;
+  margin-left: 17px;
+}
+
+
+.input-info {
+  margin-top: 20px;
+    text-align: center;
+}
+
+.lower-button:hover {
+  background: #4e3b2d;
+}
+
+.generic-input {
+  border: 2px solid gray;
+  border-radius: 2px;
+  font-size: 1em;
+
+}
+
+/* .lower-button:active {
+  box-shadow: 0 0px #292929;
+  border-top-width: 4px;
+  border-bottom-width:0px;
+}
+   */
+
 .alarm-box {
   width:75%;
   height:8vw;
   background: rgb(115,83,60);
-  /* background: linear-gradient(180deg, rgba(115,83,60,1) 0%, rgba(50,36,26,1) 100%); */
+  background: linear-gradient(180deg, rgba(115,83,60,1) 0%, rgba(50,36,26,1) 100%);
   border-radius:5px;
   margin:auto;
   margin-top: 3.2rem;
@@ -37,6 +71,10 @@
   /* margin-left: 1rem; */
 }
 
+.power-shadow {
+  box-shadow: 0 0 12px 0px indianred;
+}
+
 .has-power {
   color:indianred;
 }
@@ -47,6 +85,7 @@
 }
 
 .power-button {
+  border:none;
   text-align: center;
   margin-top: 2.4em;
   width: 4em;
@@ -73,40 +112,6 @@
   /* height:1.4em; */
 }
 
-/* .slider-container {
-  width: 100%;
-}
-
-.slider {
-  -webkit-appearance: none;
-  width: 100%;
-  height: 25px;
-  background: #d3d3d3;
-  outline: none;
-  opacity: 0.7;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
-}
-
-.slider:hover {
-  opacity: 1;
-} */
-
-/* .slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 25px;
-  height: 25px;
-  background: #4CAF50;
-  cursor: pointer;
-}
-
-.slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  background: #4CAF50;
-  cursor: pointer;
-} */
 
 .foot {
  width:3vw;
@@ -120,12 +125,27 @@
 
 }
 
+.tuner-needle {
+  width:3px;
+  background:black;
+  height:17px;
+}
 
 .tuner-bar {
   height: 2px;
   /* width: 100%; */
   margin-top: 1vw;
   background-color: black;
+}
+
+.tuner-bar .tuner-on {
+  box-shadow: 0 0 20px 0px indianred;
+}
+
+
+.tuner-on .station {
+  color: indianred;
+
 }
 
 .station {
